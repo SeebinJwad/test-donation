@@ -1,0 +1,100 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+<!--  <nav class="fixed-nav-bar">
+    <p>hi</p>
+  </nav>-->
+
+  <div class="row" style="background:white;"><img src="red-cross.png" id="red-cross" class="mx-auto d-block"></div>
+
+  <!--<div class="container d-flex h-100" style="z-index: 1;position:absolute; left:50%;">-->
+  <section id="cover">
+    <div id="cover-caption">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 col-lg-6 col-md-8 col-sm-12 mx-auto form p-4" style="text-align: left; color:black;">
+            <div>
+              <h1>Make a donation</h1>
+              <p>The american red cross works tirelessly to help everoyne in need acces the vital medical supplies they need to surivvie. Right now this is more important than ever. You can make a difference. Support all the urgent humanitarian needs of the American Red Cross with your financial gift.</p>
+
+
+              <div class="change-period-now">
+                <li>
+                  <input type="radio" id="b25" name="amt" />
+                  <label for="b25">Personalized</label>
+                </li>
+                <li>
+                  <input type="radio" id="b50" name="amt" />
+                  <label for="b50">Monthly</label>
+                </li>
+                <li>
+                  <input type="radio" id="b75" name="amt" checked="checked" />
+                  <label for="b75">One-time</label>
+                </li>
+              </div>
+
+              <img id="groceries" src="groceries.jpg">
+              <p style="text-align: center;">Whenever you buy groceries, donate:</p>
+              <div class="row" style="left:15px;position: relative;">
+                <ul class="donate-now">
+                  <li>
+                    <input type="radio" id="a25" name="amount" />
+                    <label for="a25">$25</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="a50" name="amount" />
+                    <label for="a50">$50</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="a75" name="amount" checked="checked" />
+                    <label for="a75">$75</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="a100" name="amount" />
+                    <label for="a100">$100</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="other" name="amount" />
+                    <label for="other">other:</label>
+                  </li>
+                  <li>
+                    <input type="text" id="otherAmount" name="numAmount" />
+                  </li>
+                </ul>
+              </div>
+              <div class="form-check" style="margin-top:15px;margin-bottom:15px;">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Add a monthly limit
+                </label>
+              </div>
+              <form action="">
+                <form>
+                  <div class="row">
+                    <div class="col" style="padding-right: 5px;">
+                      <input type="text" class="form-control" placeholder="First name *" required>
+                    </div>
+                    <div class="col" style="padding-left: 5px;">
+                      <input type="text" class="form-control" placeholder="Last name *" required>
+                    </div>
+                  </div>
+                </form>
+                <div class="form-group">
+                  <label class="sr-only">Email</label>
+                  <input type="text" class="form-control" placeholder="Email *" required>
+                </div>
+                <button type="submit" class="btn next" style="background-color:red; color:white; width:40%;">Next</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body></html>

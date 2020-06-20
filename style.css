@@ -1,0 +1,192 @@
+#red-cross {
+  height: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#red-cross:hover {
+  cursor: pointer;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #00a087;
+}
+
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(red-cross-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#cover {
+  padding-top: 65vh;
+  padding-bottom:65vh;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#cover-caption {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* only used for background overlay not needed for centering */
+form:before {
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+
+
+
+.change-period-now {
+  list-style-type: none;
+  font-weight: 600;
+}
+
+.change-period-now li {
+  float: left;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  width: 33%;
+  height: 40px;
+  position: relative;
+
+}
+
+.change-period-now label,
+.change-period-now input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  padding-bottom: 30px !important;
+}
+
+.change-period-now input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.change-period-now input[type="radio"]:checked + label {
+  background: red;
+  color: white;
+}
+
+.change-period-now label {
+  padding: 5px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  z-index: 90;
+  background: white;
+  /*box-shadow: 0px 5px 5px 1px black;*/
+}
+
+.change-period-now label:hover {
+  background: #DDD;
+}
+
+
+
+#groceries {
+
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 10px;
+  position: relative;
+
+  display: block;
+  margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.form-check {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+
+
+.donate-now {
+  font-weight: 500;
+  list-style-type: none;
+  margin: 0px 0 0 0;
+  padding: 0;
+}
+
+.donate-now li {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 119px;
+  height: 40px;
+  position: relative;
+}
+
+.donate-now label,
+.donate-now input {
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.donate-now input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.donate-now input[type="radio"]:checked + label {
+  background: red;
+  color: white;
+}
+
+.donate-now label {
+  padding: 5px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.donate-now label:hover {
+  background: #DDD;
+}
+
+#otherAmount {
+  height: 33px;
+}
+.next{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
